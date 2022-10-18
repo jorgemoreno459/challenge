@@ -1,0 +1,39 @@
+.productListContainer{
+  .row{
+    max-width: calc((100vw/13)*11);
+    background: #ffffff;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    color: #333333;
+    padding: 2px;
+    box-shadow: 0 3px 6px 0.1px;
+
+    div{
+      background: #fff;
+    }
+    .productImageContainer{
+      width: 19.33%;
+      img{
+        height: 150px;
+        object-fit: contain;
+      }
+    }
+
+    .productDetailContainer{
+      width: 50%;
+      span{
+        font-size: 18px;
+      }
+    }
+
+    .ProductCondition{
+      text-align: center;
+      width: 29%;
+      span {
+        margin-top: 70px;
+        position: absolute
+      }
+    }
+  }
+}
